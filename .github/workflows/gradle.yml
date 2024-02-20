@@ -38,8 +38,11 @@ jobs:
          ls -lrt
          ls
          cd ..
+         ls -lrt
          ls
          cd /app
+         ls -lrt
+         ls
          ls
          ./gradlew build
 
