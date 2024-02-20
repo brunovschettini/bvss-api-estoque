@@ -36,8 +36,9 @@ jobs:
     - name: Build with Gradle Wrapper
       run: |
          ls -lrt
+         ls
          cd ..
-         cd ./app
+         cd /app
          ./gradlew build
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
