@@ -1,4 +1,4 @@
-package br.com.bvss.estoque;
+package br.com.bvss.api.estoque;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

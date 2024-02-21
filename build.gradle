@@ -4,7 +4,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.1.4'
 }
 
-group = 'br.com.bvss'
+group = 'br.com.bvss.api'
 version = '0.0.1-SNAPSHOT'
 
 java {
