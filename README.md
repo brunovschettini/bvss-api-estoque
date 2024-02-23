@@ -4,7 +4,7 @@ Api para realizar cadastro de produtos e gerenciar um pequeno estoque, entrada e
 
 Essa API tem fins de estudo e de apresentar partes do meu conhecimento como desenvolvedor.
 
-# Prefácio: *bvss-es6-api-estoque*.
+### Ref. name: *bvss-es6-api-estoque*.
 
 - bvss: Abrevição do meu nome
 - es6: Sigla aleatória que será usada como referência para um grupo de aplicações que tem a mesma finalidade de uso ou grupo.
