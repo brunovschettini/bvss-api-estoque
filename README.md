@@ -1,4 +1,4 @@
-# estoque
+# Estoque
 
 Api para realizar cadastro de produtos e gerenciar um pequeno estoque, entrada e saída.
 
