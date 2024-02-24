@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# bvss-api-estoque
-=======
 # Estoque
->>>>>>> main
 
 Api para realizar cadastro de produtos e gerenciar um pequeno estoque, entrada e saída.
 
