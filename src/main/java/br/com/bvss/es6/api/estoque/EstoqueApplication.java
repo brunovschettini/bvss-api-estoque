@@ -1,4 +1,4 @@
-package br.com.bvss.api.estoque;
+package br.com.bvss.es6.api.estoque;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
