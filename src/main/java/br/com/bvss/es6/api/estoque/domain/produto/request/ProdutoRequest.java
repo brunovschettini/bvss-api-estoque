@@ -1,4 +1,4 @@
-package br.com.bvss.estoque.domain.produto.request;
+package br.com.bvss.es6.api.estoque.domain.produto.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
