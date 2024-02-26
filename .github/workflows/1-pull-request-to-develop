@@ -1,0 +1,11 @@
+name: "1 - [FEAT] Build & PR"
+
+on:
+  push:
+    branchs: 
+       - 'feature**/
+       - 'hotfix**/
+jobs:
+  app:
+    uses: brunovschettini/bvss-up1-cloud-dotnet/.github/workflows/feature.yaml@v1
+    secrets: inherit
