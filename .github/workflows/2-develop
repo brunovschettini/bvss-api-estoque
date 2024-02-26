@@ -1,0 +1,10 @@
+name: "1 - [FEAT] Build & PR"
+
+on:
+  pull_request:
+    types: closed
+    branchs: develop
+jobs:
+  app:
+    uses: brunovschettini/bvss-up1-cloud-java/.github/workflows/develop.yaml@v1
+    secrets: inherit
