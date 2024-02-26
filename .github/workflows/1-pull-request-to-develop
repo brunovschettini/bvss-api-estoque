@@ -7,5 +7,5 @@ on:
        - 'hotfix**/
 jobs:
   app:
-    uses: brunovschettini/bvss-up1-cloud-dotnet/.github/workflows/feature.yaml@v1
+    uses: brunovschettini/bvss-up1-cloud-java/.github/workflows/feature.yaml@v1
     secrets: inherit
