@@ -1,4 +1,4 @@
-package br.com.bvss.estoque.domain.produto.enumerator;
+package br.com.bvss.es6.api.estoque.domain.produto.enumerator;
 
 import lombok.AllArgsConstructor;
 

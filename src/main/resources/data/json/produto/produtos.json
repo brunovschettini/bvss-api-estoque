@@ -1,0 +1,12 @@
+[
+  {
+    "id_produto": "1",
+    "descricao_produto": "Produto teste 1",
+    "tipo_produto": "NAO_DEFINIDO"
+  },
+  {
+    "id_produto": "2",
+    "descricao_produto": "Produto teste 2",
+    "tipo_produto": "NAO_DEFINIDO"
+  }
+]
