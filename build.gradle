@@ -31,7 +31,6 @@ dependencies {
 	// DB
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'com.h2database:h2'
-//	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
@@ -43,6 +42,9 @@ dependencies {
 
 //	Docs
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+
+//	ClouldServer
+//	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 
 //  A implementar
 //	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
