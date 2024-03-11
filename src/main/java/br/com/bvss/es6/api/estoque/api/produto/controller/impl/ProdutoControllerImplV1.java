@@ -1,6 +1,6 @@
-package br.com.bvss.es6.api.estoque.controller.produto.impl;
+package br.com.bvss.es6.api.estoque.api.produto.controller.impl;
 
-import br.com.bvss.es6.api.estoque.controller.produto.ProdutoControllerV1;
+import br.com.bvss.es6.api.estoque.api.produto.controller.ProdutoControllerV1;
 import br.com.bvss.es6.api.estoque.domain.produto.request.ProdutoRequest;
 import br.com.bvss.es6.api.estoque.domain.produto.response.ListaProdutoContractResponse;
 import br.com.bvss.es6.api.estoque.domain.produto.response.ProdutoContractResponse;
@@ -22,10 +22,12 @@ public class ProdutoControllerImplV1 implements ProdutoControllerV1 {
     @Qualifier("v1")
     private ProdutoUseCaseV1 produtoUseCase;
 
+    @Override
     public ProdutoContractResponse getProdutoV1(final Long idProduto) {
         return produtoUseCase.getProdutoV1(idProduto);
     }
 
+    @Override
     public ListaProdutoContractResponse getListaProdutosV1() {
         return produtoUseCase.getListaProdutosV1();
     }
