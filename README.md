@@ -10,3 +10,8 @@ Essa API tem fins de estudo e de apresentar partes do meu conhecimento como dese
 - es6: Sigla aleatória que será usada como referência para um grupo de aplicações que tem a mesma finalidade de uso ou grupo.
 - api: Indica que essa aplicação é uma API.
 - estoque: Informa que essa aplicação da sigla (es6) é relacionada ao serviço de negócio de estoque 
+
+### Swagger 
+
+- Localhost: http://localhost:{{port}}/bvss-es6-api-estoque/swagger-ui/index.html#/
+- Gateway: 
